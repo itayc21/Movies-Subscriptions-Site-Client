@@ -1,0 +1,27 @@
+
+
+.user-item {
+    list-style-type: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-details {
+    margin-bottom: 10px;
+  }
+  
+  .user-name,
+  .user-username,
+  .user-password {
+    font-weight: bold;
+  }
+  
+  .actions {
+    margin-top: 10px;
+  }
+  
+  .actions button {
+    margin-right: 10px;
+  }
+  

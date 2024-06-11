@@ -1,0 +1,68 @@
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .movie-image {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .movie-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+  
+  .movie-year {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .actions button:active {
+    background-color: #004080;
+  }
+  

@@ -1,0 +1,28 @@
+
+
+.movies-watched {
+  border: 2px solid #ccc; 
+  padding: 20px; 
+}
+
+.subscribe-button {
+  margin-bottom: 10px; 
+}
+
+.movie-link {
+  text-decoration: none; 
+  color: blue; 
+}
+
+.movie-link:hover {
+  color: blue; 
+}
+
+.movies-watched ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.movies-watched ul li {
+  margin-bottom: 5px; 
+}

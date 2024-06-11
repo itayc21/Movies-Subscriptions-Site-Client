@@ -1,0 +1,26 @@
+
+
+.member-item {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.member-details {
+    margin-bottom: 5px;
+}
+
+.member-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.member-email,
+.member-city {
+    margin-left: 5px;
+}
+
+.actions button {
+    margin-right: 5px;
+}

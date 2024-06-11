@@ -1,0 +1,33 @@
+.add-movie-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-movie-form select,
+.add-movie-form input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-movie-form button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-movie-form button:hover {
+  background-color: #0056b3;
+}

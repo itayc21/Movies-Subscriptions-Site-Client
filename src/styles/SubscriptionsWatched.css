@@ -1,0 +1,29 @@
+.subscriptions-watched {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.subscriptions-watched h3 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.subscriptions-watched ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subscriptions-watched li {
+    margin: 5px 0;
+}
+
+.subscriptions-watched a {
+    text-decoration: none;
+    color: blue;
+}
+
+.subscriptions-watched a:hover {
+    text-decoration: underline;
+}
